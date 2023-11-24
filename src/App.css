@@ -1,0 +1,28 @@
+.key:nth-child(-1n+3) {
+    background-color: #a7a7a7;
+}
+
+.key:nth-child(4n+4) {
+    background-color: #fe9126;
+}
+
+.key:nth-child(4n+5),
+.key:nth-child(4n+6),
+.key:nth-child(4n+7) {
+    background-color: #333333;
+}
+
+.key:nth-child(19) {
+    background-color: #fe9126;
+}
+
+.key:nth-child(17) {
+    grid-column: 1/ span 2;
+    text-align: left;
+    padding-left: 30px;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
